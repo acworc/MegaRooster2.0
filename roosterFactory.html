@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-rtl.min.css">
+    <link rel="stylesheet" href="roosterFactory.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  </head>
+  <body>
+    <h1>Welcome to the Rooster Factory</h1>
+
+
+    <section>
+        <div class="special">
+            <form id="bucketForm">
+
+                <p>
+                    <label for="item">Bucket List Item:</label>
+                    <input type="text" name="item" required>
+
+
+                </p>
+
+
+                <p>
+                    <button type="submit">Go</button>
+                </p>
+
+            </form>
+
+            <form id="deleteForm">
+                <label for="itemToDelete">Item Number to Delete: </label>
+                <input type="number" name = "numToDelete" required min=1>
+                <button type="submit">Delete</button>
+            </form>
+            
+        </div>
+        <div id="details">
+            <ol id="buckets"></ol>
+        </div>
+    </section>
+
+    <div class="special"></div>
+    
+    <script src="roosterFactory.js"></script>
+    <div class="bg"></div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("http://nwasianweekly.com/wp-content/uploads/2017/01/FRONT-Trump-rooster.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    padding: 1rem 4rem;
+}
+
+section > div {
+    width: 80%;
+    margin: 1rem auto;
+}
